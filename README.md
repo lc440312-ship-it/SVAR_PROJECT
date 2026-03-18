@@ -1,4 +1,3 @@
-<img width="3000" height="2400" alt="01_series_temporales" src="https://github.com/user-attachments/assets/4952a8d3-957b-4770-8f44-22d7f56490ce" /># SVAR_PROJECT
 Desarrollo de un modelo SVAR con restricciones estructurales para cuantificar el impacto de choques externos (precios del oro y demanda industrial de EE. UU.) sobre las exportaciones nicaragüenses, identificando patrones de transmisión macroeconómica y estabilidad de las series.
 
 # Introducción
