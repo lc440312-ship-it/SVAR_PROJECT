@@ -10,7 +10,7 @@ El sector exportador de Nicaragua posee una dependencia estructural de factores 
 
 <img width="3000" height="2400" alt="01_series_temporales" src="https://github.com/user-attachments/assets/d9c3b106-d247-4f09-9d9e-699606987f6a" />
 
-# Metodología
+# Metodología y resultados
 Para el análisis se empleó un modelo Vector Autoregresivo Estructural (SVAR) con 2 rezagos ($p=2$), seleccionado bajo criterios de información (AIC/BIC).
 
 - **Estabilidad del Modelo**: El sistema es estacionario, ya que todas las raíces del polinomio característico se encuentran fuera del círculo unitario. Esto garantiza que los choques representados en las funciones impulso-respuesta sean transitorios y que el modelo no genere divergencias explosivas a largo plazo.
@@ -24,7 +24,7 @@ Para el análisis se empleó un modelo Vector Autoregresivo Estructural (SVAR) c
 
 - Choque en IMAE $\rightarrow$ Exportaciones: Existe una correlación procíclica clara. Un aumento en la actividad económica interna genera el excedente productivo necesario para colocar productos en el mercado exterior.
 
-<img width="3600" height="3000" alt="04_irf_restringido" src="https://github.com/user-attachments/assets/145857f4-71e1-4f37-8109-5da34e2a20f3" />
+<img width="721" height="146" alt="image" src="https://github.com/user-attachments/assets/30e77df9-d69f-4e10-87aa-a57dc8005ec3" />
 
 # Conclusiones
 
