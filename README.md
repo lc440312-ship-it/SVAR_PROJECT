@@ -1,4 +1,4 @@
-# Desarrollo de un modelo SVAR con restricciones estructurales para cuantificar el impacto de choques externos (precios del oro y demanda industrial de EE. UU.) sobre las exportaciones nicaragüenses.
+# Desarrollo de un modelo SVAR con restricciones estructurales para cuantificar el impacto de choques externos (precios del oro y demanda industrial de EE. UU.) sobre las exportaciones Nicaragüenses.
 
 # Introducción
 Este proyecto es un ejercicio de corte técnico y exploratorio, no busca responder de forma 100% rigurosa; busca solamente poner en práctica habilidades estadísticas aterrizandolas en un contexto económico. Los datos Nacionales IMAE y Exportaciones, fueron sacados de las bases de datos del BCN y las variables internacionales, el IPI de la FED y el PIO de Investing.com
