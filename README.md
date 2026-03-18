@@ -41,4 +41,3 @@ Para el análisis se empleó un modelo Vector Autoregresivo Estructural (SVAR) c
 
 
 
-- Choque en IMAE $\rightarrow$ Exportaciones: Existe una correlación procíclica clara. Un aumento en la actividad económica interna genera el excedente productivo necesario para colocar productos en el mercado exterior.
