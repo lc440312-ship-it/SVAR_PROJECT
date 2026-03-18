@@ -1,7 +1,7 @@
 # Desarrollo de un modelo SVAR con restricciones estructurales para cuantificar el impacto de choques externos (precios del oro y demanda industrial de EE. UU.) sobre las exportaciones nicaragüenses.
 
 # Introducción
-Este proyecto es un ejercicio de corte técnico y exploratorio, no busca responder de forma 100% rigurosa; busca solamente poner en práctica habilidades estadísticas aterrizandolas en un contexto económico.
+Este proyecto es un ejercicio de corte técnico y exploratorio, no busca responder de forma 100% rigurosa; busca solamente poner en práctica habilidades estadísticas aterrizandolas en un contexto económico. Los datos Nacionales IMAE y Exportaciones, fueron sacados de las bases de datos del BCN y las variables internacionales, el IPI de la FED y el PIO de Investing.com
 El sector exportador de Nicaragua posee una dependencia estructural de factores exógenos y de la capacidad productiva interna. Este modelo busca capturar la sensibilidad de las Exportaciones ante tres pilares fundamentales:
 
 - PIO (Precio Internacional del Oro): Representando la principal actividad minera del país.
@@ -21,5 +21,24 @@ Para el análisis se empleó un modelo Vector Autoregresivo Estructural (SVAR) c
 - Choque en PIO $\rightarrow$ Exportaciones: Se observa un impacto positivo y persistente. Dado que el oro es el principal rubro de exportación, un incremento en el precio internacional se traduce de forma casi inmediata en un mayor valor exportado. El efecto alcanza su madurez hacia el tercer mes y se estabiliza lentamente.
 
 - Choque en IPI $\rightarrow$ Exportaciones: La respuesta es positiva, confirmando la hipótesis de que las exportaciones nicaragüenses actúan como insumos para la industria estadounidense. Una expansión en la manufactura de EE. UU. "jala" la demanda de productos locales.
+
+- Choque en IMAE $\rightarrow$ Exportaciones: Existe una correlación procíclica clara. Un aumento en la actividad económica interna genera el excedente productivo necesario para colocar productos en el mercado exterior.
+
+<img width="3600" height="3000" alt="04_irf_restringido" src="https://github.com/user-attachments/assets/145857f4-71e1-4f37-8109-5da34e2a20f3" />
+
+# Conclusiones
+
+**Vulnerabilidad Exógena**: Las exportaciones de Nicaragua son altamente sensibles a factores que el país no controla (precios del oro y demanda industrial de EE. UU.). Esto subraya la importancia de la diversificación de mercados.
+
+**Transmisión de Choques**: Los choques externos tienen una memoria de aproximadamente 6 a 8 meses antes de diluirse, lo que permite una ventana de planeación macroeconómica ante cambios en los precios internacionales.
+
+**Validación del Modelo**: La estabilidad del VAR y el sentido económico de las restricciones impuestas validan este algoritmo como una herramienta robusta para la proyección de flujos comerciales bajo diferentes escenarios de precios de commodities.
+
+
+
+
+
+
+
 
 - Choque en IMAE $\rightarrow$ Exportaciones: Existe una correlación procíclica clara. Un aumento en la actividad económica interna genera el excedente productivo necesario para colocar productos en el mercado exterior.
